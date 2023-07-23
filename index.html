@@ -159,13 +159,25 @@
 
   </header>
   <main class="md:container md:mx-auto">
-    <section>
+    <section class="mt-24">
       <!-- Featured Bike -->
+      <h3 class="text-5xl font-semibold text-center">Fetured Bikes In This Year</h3>
+      <p class="text-sm text-5xl text-bike-primary text-center">Best bike collection</p>
+      <div class="hidden md:hidden lg:ml-[730px]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="59" height="1" viewBox="0 0 59 1" fill="none">
+          <path d="M0 0.5H58.5" stroke="#E76F51"/>
+        </svg>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center px-14 md:px-24 lg:px-36">
+        <img class="gap-32 mb-5" src="images/others/feature-bike.png" alt="">
+        <img class="gap-32 mb-5" src="images/others/feature-bike.png" alt="">
+        <img class="gap-32 mb-5" src="images/others/feature-bike.png" alt="">
+      </div>
     </section>
     <!-- Latest Bike -->
 
     <section class="my-24">
-      <h3 class="text-5xl mb-12 font-semibol text-center">Latest Bikes</h3>
+      <h3 class="text-5xl mb-12 font-semibold text-center">Latest Bikes</h3>
       <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- First Card -->
         <div class="card bg-base-100 shadow-xl p-5">
@@ -279,7 +291,7 @@
     <section class="my-24">
       <h3 class="text-5xl mb-12 font-semibold text-center">Frequently Asked <span
           class="text-[#E76F51]">Questions</span></h3>
-      <div class="hero min-h-screen bg-base-200">
+      <div class="hero bg-base-200">
         <div class="hero-content flex-col lg:gap-24 lg:flex-row">
           <img src="images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
           <div>
@@ -335,9 +347,35 @@
 
     </section>
   </main>
-  <footer>
-
-  </footer>
+  <!-- Footer section -->
+    <footer class="footer px-14 md:px-24lg:px-40 pt-14 pb-20 bg-neutral text-neutral-content bg-black ">
+      <div>
+        <div>
+          <ul class="flex gap-6">
+            <li><a href="">Download Now</a></li>
+            <li><a href="">License</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 mb-6 mt-3">
+            <li><a href="">About</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <p>© 2020 bike. All rights reserved</p>
+      </div> 
+      <div>
+        <span class="text-gray-300 font-medium text-lg">Get the App</span> 
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="w-36" src="images/others/ios.png" alt=""></a> 
+          <a><img class="w-36" src="images/others/android.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>
